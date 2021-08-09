@@ -1,0 +1,270 @@
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar {
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 40px 0;
+        justify-content: space-evenly;
+    }
+    
+    .navbar ul {
+        text-align: right;
+        padding: 0 40px;
+        margin: -70px 0 0 0;
+    }
+    
+    .navbar ul li {
+        padding: 0;
+        display: inline-block;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    
+    a {
+        color: #fff;
+    }
+    
+    video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1500;
+        width: 100%;
+    }
+    
+    .logo {
+        cursor: pointer;
+        font-size: 30px;
+        color: #fff;
+        padding: 0 0 30px 0;
+    }
+    
+    .overlay {
+        padding: 100px;
+        text-align: center;
+    }
+    
+    .text {
+        color: rgb(250, 243, 243);
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        margin: 200px;
+    }
+    
+    p {
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 30px;
+        justify-content: space-around;
+    }
+    
+    h3 {
+        font-size: 70px;
+        color: #fff;
+    }
+    
+    h2 {
+        font-size: 100px;
+        color: #fff;
+    }
+    
+    h4 {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0;
+    }
+    
+    h5 {
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        padding: 0 0 30px 0;
+    }
+    
+    h4:after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        text-align: center;
+        background-color: rgb(119, 78, 78);
+        margin: auto;
+    }
+    
+    .btn {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 30px;
+        vertical-align: top;
+        border: 3px solid#fff;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background 0.2s linear, color 0.1s linear;
+        border-radius: 1px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(250, 198, 198)
+    }
+    
+    .categories {
+        max-width: 1080px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 200px;
+    }
+    
+    .app-logo {
+        cursor: pointer;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .col-4 img {
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .col-4 {
+        flex-basis: 25%;
+        padding: 15px;
+        min-width: 200px;
+        margin-bottom: 100px 0;
+        Transform: Transform 0.5s;
+    }
+    
+    i {
+        color: rgb(250, 243, 243);
+    }
+    
+    span {
+        color: rgb(250, 243, 243);
+    }
+    
+    .app-logo {
+        padding: 10px 40px 0 0;
+    }
+    
+    .footer-col-1 h5 {
+        text-align: center;
+        text-align: left;
+    }
+    
+    .footer-col-4 ul li {
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        padding: 20px 0 10px 0;
+        text-align: left;
+    }
+    
+    .footer-col-3 ul li {
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        justify-content: space-around;
+        padding: 20px 0 10px 0;
+        text-align: left;
+    }
+    
+    .logo-foot a {
+        font-size: 80px;
+        text-align: center;
+        color: #fff;
+        text-align: justify;
+    }
+    
+    .account-page {
+        padding: 70px 0;
+    }
+    
+    .form-container {
+        background: rgb(109, 140, 197);
+        width: 350px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+        margin: 80px 0;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-container span {
+        font-weight: bold;
+        padding: 0 10px;
+        color: #555;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    .form-btn {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .form-container form {
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+        transition: transform 1s;
+    }
+    
+    form input {
+        width: 80%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 50px;
+    }
+    
+    form a {
+        font-size: 12px;
+    }
+    
+    #Indicator {
+        width: 100px;
+        border: none;
+        background: #ff523b;
+        height: 3px;
+        margin-top: 8px;
+        transition: transform 1s;
+    }
+    
+    h6 {
+        color: rgb(250, 243, 243);
+        font-size: 13px;
+    }
+    
+    .contact-container {
+        padding: 200px 300px 200px 100px;
+        padding-bottom
+    }
+    
+    .contact-container a {
+        margin: 100px 0 100px -300px;
+    }
